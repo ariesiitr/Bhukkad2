@@ -43,6 +43,7 @@ IDE used: Android Studio, Firebase, Figma
 Overall, the functioning of a Bhukkad app involves a combination of front-end and back-end processes that are designed to make it easy and convenient for customers to order food and for the restaurant to manage and process orders.
 1.	Front-end: It offers two types of login: One for the customers and the other for the canteen owners. 
 Customers- After the login through email id and phone number, the customer will be directed to the page which allows him to choose the Bhawan canteen of his/her own choice. 
+
 ●	Login is connected to Firebase Utility as the backend.
 
 ●	After choosing the canteen, he/she will be able to see the menu of the canteen along with the price of each item. 
@@ -61,8 +62,11 @@ Canteen Owner-  After the login, canteen owners will be able to see the menu pag
 
 2.	Back-end: 
 ●	We have used Firebase cloud-based backend server. It is No SQL-type real-time database system that collects the user mail ids. 
+
 ●	Along with this, it will also collect the menu along with prices of different canteens. We integrated this database with the Android studio. 
+
 ●	We have also used the cloud-based messaging by Firebase and One Signal to push notifications to customers and canteen owners for efficient working on orders.
+
 ●	Google Analytics allows us to track the daily sales of canteens through the app.
 
 
