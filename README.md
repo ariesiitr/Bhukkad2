@@ -44,14 +44,19 @@ Overall, the functioning of a Bhukkad app involves a combination of front-end an
 1.	Front-end: It offers two types of login: One for the customers and the other for the canteen owners. 
 Customers- After the login through email id and phone number, the customer will be directed to the page which allows him to choose the Bhawan canteen of his/her own choice. 
 ●	Login is connected to Firebase Utility as the backend.
+
 ●	After choosing the canteen, he/she will be able to see the menu of the canteen along with the price of each item. 
+
 ●	On selecting the item, he will be directed to the checkout page, where he/she will be able to see the item with the price total. To add more to the order, he/she can choose the option of ‘Add more’ or else choose ‘Checkout’.
+
 ●	On checking out, it will redirect to the payment gateway which allows customers to make payments.
+
 ●	Payment Gateway Working-When a payment is incurred a checksum is sent to cash free which in response generates a token to authorize the payment.
+
 ●	On confirming the payment, the notification of the order will be received by the canteen owner as well as the customer and the customer will be redirected to the home page.
 The owner will give the order to the customer only after confirming through the notification. This allows the owner to receive the payment before the order and makes the delivery process more efficient and transparent. 
 
-                   Canteen Owner-  After the login, canteen owners will be able to see the menu page along with the price. It allows them to edit the menu (add or delete the item along with their respective prices). 
+Canteen Owner-  After the login, canteen owners will be able to see the menu page along with the price. It allows them to edit the menu (add or delete the item along with their respective prices). 
 
 
 2.	Back-end: 
