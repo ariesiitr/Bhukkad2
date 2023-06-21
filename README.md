@@ -34,9 +34,7 @@ Functional Requirements:
 
 # APIs Used: 
 1. Sandbox environment of cash-free
-   
-2.OneSignal for Notifications 
-
+2.OneSignal for Notifications
 3. Firebase Database for Backend
 Programming Languages Used: Java and XML
 IDE used: Android Studio, Firebase, Figma
